@@ -1,0 +1,16 @@
+//JSX  - JavaScript XML  is provided by react to define our template
+
+//install live server by npm i live-server
+    <h1>Live server installed</h1>
+
+    // we have all of the features of react and react-dom by following cdn
+
+//uses of babel =  it is a js compiler . it takes features from es6 and es7 and compiles them down to es5 code .
+
+//npm i -g babel-cli@6.24.1     to install babel-cli
+//npm i babel-preset-react@6.24.1   to install babel-preset
+//npm i babel-preset-env@1.5.2     to install babel-env
+//babel src/app.js --out-file=Public/script/app.js   --presets=env,react     run this command to generate compiled output
+// babel src/app.js --out-file=Public/script/app.js   --presets="env,react" --watch     to watch and update the file
+
+//undefined , null , bullion are ignored by jsx

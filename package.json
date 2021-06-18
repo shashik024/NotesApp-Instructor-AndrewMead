@@ -1,0 +1,46 @@
+{
+  "name": "jforjavascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chahalrohit/jforjavascript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chahalrohit/jforjavascript/issues"
+  },
+  "homepage": "https://github.com/chahalrohit/jforjavascript#readme",
+  "dependencies": {
+    "babel-loader": "^8.2.2",
+    "babel-preset-env": "^1.5.2",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^5.2.6",
+    "node-sass": "^6.0.0",
+    "normalize.css": "^8.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-modal": "^3.14.2",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^2.0.0"
+  },
+  "scripts": {
+    "webpack": "webpack   --watch",
+    "serve": "live-server public",
+    "dev": "babel src/app.js --out-file=Public/script/app.js  --presets='env,react' --watch",
+    "devserver": "webpack-dev-server"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "@babel/preset-react": "^7.13.13",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "live-server": "^1.2.1",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^3.3.8",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
